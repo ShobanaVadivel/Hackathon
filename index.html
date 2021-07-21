@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHubAPI</title>
+
+
+<style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body{
+    background-color: slategray;
+}
+
+.text {
+  color:rgb(43, 15, 49);
+  font-size: 18px;
+  font-weight: bold;  
+  
+}
+.user-image {
+  height: 100px;
+  border-radius: 50%;
+}
+.user-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    
+}
+
+.user-container {
+    background-image: radial-gradient(circle, #b4fbe9,
+     #9aedeb, #87deed, #7dceec, #7dbde8, #87b4e8,
+     #94aae4, #a3a0dc, #b89cd9, #cc97d1, #de93c6, #ed90b8);
+    padding: 10px;
+    margin : 50px;
+    border-radius: 16px;
+    font-family: Poppins;
+    gap: 10px;
+    width: 500px;
+    transition: all 200ms;
+    opacity: 0.8;
+    
+} 
+.user-container:hover .user-image {
+  border: 3px solid pink;
+}
+
+.user-container:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+</style>
+</head>
+
+
+
+<body>
+    <script src="script.js"> </script>
+    
+</body>
+</html>
